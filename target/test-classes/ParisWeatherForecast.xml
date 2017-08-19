@@ -1,0 +1,55 @@
+<query xmlns:yahoo="http://www.yahooapis.com/v1/base.rng" yahoo:count="1" yahoo:created="2017-08-19T21:34:35Z" yahoo:lang="en-US">
+ <results>
+  <channel>
+   <yweather:units xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" distance="mi" pressure="in" speed="mph" temperature="F"/>
+   <title>Yahoo! Weather - Paris, Ile-de-France, FR</title>
+   <link>
+    http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-615702/
+   </link>
+   <description>Yahoo! Weather for Paris, Ile-de-France, FR</description>
+   <language>en-us</language>
+   <lastBuildDate>Sat, 19 Aug 2017 11:34 PM CEST</lastBuildDate>
+   <ttl>60</ttl>
+   <yweather:location xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" city="Paris" country="France" region=" Ile-de-France"/>
+   <yweather:wind xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" chill="64" direction="310" speed="11"/>
+   <yweather:atmosphere xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" humidity="54" pressure="1015.0" rising="0" visibility="16.1"/>
+   <yweather:astronomy xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" sunrise="6:50 am" sunset="8:58 pm"/>
+   <image>
+    <title>Yahoo! Weather</title>
+    <width>142</width>
+    <height>18</height>
+    <link>http://weather.yahoo.com</link>
+    <url>
+     http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif
+    </url>
+   </image>
+   <item>
+    <title>
+     Conditions for Paris, Ile-de-France, FR at 10:00 PM CEST
+    </title>
+    <geo:lat xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">48.85693</geo:lat>
+    <geo:long xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#">2.3412</geo:long>
+    <link>
+     http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-615702/
+    </link>
+    <pubDate>Sat, 19 Aug 2017 10:00 PM CEST</pubDate>
+    <yweather:condition xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="27" date="Sat, 19 Aug 2017 10:00 PM CEST" temp="64" text="Mostly Cloudy"/>
+    <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="12" date="19 Aug 2017" day="Sat" high="71" low="55" text="Rain"/>
+    <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="30" date="20 Aug 2017" day="Sun" high="71" low="55" text="Partly Cloudy"/>
+    <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="30" date="21 Aug 2017" day="Mon" high="77" low="58" text="Partly Cloudy"/>
+    <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="34" date="22 Aug 2017" day="Tue" high="84" low="60" text="Mostly Sunny"/>
+    <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="30" date="23 Aug 2017" day="Wed" high="84" low="64" text="Partly Cloudy"/>
+    <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="47" date="24 Aug 2017" day="Thu" high="76" low="61" text="Scattered Thunderstorms"/>
+    <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="30" date="25 Aug 2017" day="Fri" high="74" low="59" text="Partly Cloudy"/>
+    <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="30" date="26 Aug 2017" day="Sat" high="75" low="60" text="Partly Cloudy"/>
+    <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="30" date="27 Aug 2017" day="Sun" high="73" low="60" text="Partly Cloudy"/>
+    <yweather:forecast xmlns:yweather="http://xml.weather.yahoo.com/ns/rss/1.0" code="30" date="28 Aug 2017" day="Mon" high="73" low="59" text="Partly Cloudy"/>
+    <description>
+     <![CDATA[<img src="http://l.yimg.com/a/i/us/we/52/27.gif"/> <BR /> <b>Current Conditions:</b> <BR />Mostly Cloudy <BR /> <BR /> <b>Forecast:</b> <BR /> Sat - Rain. High: 71Low: 55 <BR /> Sun - Partly Cloudy. High: 71Low: 55 <BR /> Mon - Partly Cloudy. High: 77Low: 58 <BR /> Tue - Mostly Sunny. High: 84Low: 60 <BR /> Wed - Partly Cloudy. High: 84Low: 64 <BR /> <BR /> <a href="http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-615702/">Full Forecast at Yahoo! Weather</a> <BR /> <BR /> <BR /> ]]>
+    </description>
+    <guid isPermaLink="false"/>
+   </item>
+  </channel>
+ </results>
+</query>
+        <!--  total: 4  -->

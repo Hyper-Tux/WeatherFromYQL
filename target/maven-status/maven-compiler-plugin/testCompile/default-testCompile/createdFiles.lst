@@ -1,0 +1,4 @@
+be\hypertux\mavenbook\WeatherFromYQL\service\YahooParserTest.class
+be\hypertux\mavenbook\WeatherFromYQL\service\WeatherFormatterTest.class
+be\hypertux\mavenbook\WeatherFromYQL\service\YahooRetrieverTest.class
+be\hypertux\mavenbook\WeatherFromYQL\utils\UtilsTest.class

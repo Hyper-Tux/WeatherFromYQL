@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------
+Test set: be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 0, Errors: 14, Skipped: 0, Time elapsed: 0.341 s <<< FAILURE! - in be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest
+testLocationAttributesValue(be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest)  Time elapsed: 0.207 s  <<< ERROR!
+java.lang.NullPointerException
+	at be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest.testLocationAttributesValue(YahooParserTest.java:149)
+
+testConditionAttributesValue(be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest)  Time elapsed: 0.009 s  <<< ERROR!
+java.lang.NullPointerException
+	at be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest.testConditionAttributesValue(YahooParserTest.java:100)
+
+testLocationAttributes(be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest)  Time elapsed: 0.008 s  <<< ERROR!
+java.lang.NullPointerException
+	at be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest.testLocationAttributes(YahooParserTest.java:141)
+
+testUnitsAttributes(be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest)  Time elapsed: 0.007 s  <<< ERROR!
+java.lang.NullPointerException
+	at be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest.testUnitsAttributes(YahooParserTest.java:157)
+
+testAtmosphereAttributesValues(be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest)  Time elapsed: 0.007 s  <<< ERROR!
+java.lang.NullPointerException
+	at be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest.testAtmosphereAttributesValues(YahooParserTest.java:84)
+
+testConditionAttributes(be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest)  Time elapsed: 0.009 s  <<< ERROR!
+java.lang.NullPointerException
+	at be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest.testConditionAttributes(YahooParserTest.java:93)
+
+testForecastsAttributesValues(be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest)  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.NullPointerException
+	at be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest.testForecastsAttributesValues(YahooParserTest.java:127)
+
+testAstronomyAttributesValue(be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest)  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.NullPointerException
+	at be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest.testAstronomyAttributesValue(YahooParserTest.java:77)
+
+testForecastsAttributes(be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest)  Time elapsed: 0.017 s  <<< ERROR!
+java.lang.NullPointerException
+	at be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest.testForecastsAttributes(YahooParserTest.java:110)
+
+testUnitsAttributesValue(be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest.testUnitsAttributesValue(YahooParserTest.java:166)
+
+testWeatherAttributes(be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest)  Time elapsed: 0.008 s  <<< ERROR!
+java.lang.NullPointerException
+	at be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest.testWeatherAttributes(YahooParserTest.java:40)
+
+testWeatherAttributesValue(be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest)  Time elapsed: 0.009 s  <<< ERROR!
+java.lang.NullPointerException
+	at be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest.testWeatherAttributesValue(YahooParserTest.java:60)
+
+testWindAttributesValue(be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest)  Time elapsed: 0.017 s  <<< ERROR!
+java.lang.NullPointerException
+	at be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest.testWindAttributesValue(YahooParserTest.java:175)
+
+testAstronomyAttributes(be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest)  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException
+	at be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest.testAstronomyAttributes(YahooParserTest.java:71)
+

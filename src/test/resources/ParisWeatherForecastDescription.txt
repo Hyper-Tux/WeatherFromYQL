@@ -1,0 +1,11 @@
+<![CDATA[
+<img src="http://l.yimg.com/us.yimg.com/i/us/we/52/33.gif" /><br />
+ <b>Current Conditions:</b><br />
+ Fair, 39 F<BR /><BR />
+ <b>Forecast:</b><BR />
+  Sat - Partly Cloudy. High: 45 Low: 32<br />
+  Sun - Sunny. High: 50 Low: 38<br />
+ <br />
+<a href="http://us.rd.yahoo.com/dailynews/rss/weather/New_York__NY/*http://weather.yahoo.com/forecast/10002_f.html">Full Forecast at Yahoo! Weather</a><BR/>
+ (provided by The Weather Channel)<br/>
+ ]]>s

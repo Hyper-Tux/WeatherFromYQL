@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------
+Test set: org.sonatype.mavenbook.weather.YahooParserTest
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 0, Errors: 14, Skipped: 0, Time elapsed: 0.293 s <<< FAILURE! - in org.sonatype.mavenbook.weather.YahooParserTest
+testLocationAttributesValue(org.sonatype.mavenbook.weather.YahooParserTest)  Time elapsed: 0.183 s  <<< ERROR!
+java.lang.NullPointerException
+	at org.sonatype.mavenbook.weather.YahooParserTest.testLocationAttributesValue(YahooParserTest.java:151)
+
+testConditionAttributesValue(org.sonatype.mavenbook.weather.YahooParserTest)  Time elapsed: 0.009 s  <<< ERROR!
+java.lang.NullPointerException
+	at org.sonatype.mavenbook.weather.YahooParserTest.testConditionAttributesValue(YahooParserTest.java:102)
+
+testLocationAttributes(org.sonatype.mavenbook.weather.YahooParserTest)  Time elapsed: 0.007 s  <<< ERROR!
+java.lang.NullPointerException
+	at org.sonatype.mavenbook.weather.YahooParserTest.testLocationAttributes(YahooParserTest.java:143)
+
+testUnitsAttributes(org.sonatype.mavenbook.weather.YahooParserTest)  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.NullPointerException
+	at org.sonatype.mavenbook.weather.YahooParserTest.testUnitsAttributes(YahooParserTest.java:159)
+
+testAtmosphereAttributesValues(org.sonatype.mavenbook.weather.YahooParserTest)  Time elapsed: 0.007 s  <<< ERROR!
+java.lang.NullPointerException
+	at org.sonatype.mavenbook.weather.YahooParserTest.testAtmosphereAttributesValues(YahooParserTest.java:86)
+
+testConditionAttributes(org.sonatype.mavenbook.weather.YahooParserTest)  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.NullPointerException
+	at org.sonatype.mavenbook.weather.YahooParserTest.testConditionAttributes(YahooParserTest.java:95)
+
+testForecastsAttributesValues(org.sonatype.mavenbook.weather.YahooParserTest)  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.NullPointerException
+	at org.sonatype.mavenbook.weather.YahooParserTest.testForecastsAttributesValues(YahooParserTest.java:129)
+
+testAstronomyAttributesValue(org.sonatype.mavenbook.weather.YahooParserTest)  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.NullPointerException
+	at org.sonatype.mavenbook.weather.YahooParserTest.testAstronomyAttributesValue(YahooParserTest.java:79)
+
+testForecastsAttributes(org.sonatype.mavenbook.weather.YahooParserTest)  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.NullPointerException
+	at org.sonatype.mavenbook.weather.YahooParserTest.testForecastsAttributes(YahooParserTest.java:112)
+
+testUnitsAttributesValue(org.sonatype.mavenbook.weather.YahooParserTest)  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.NullPointerException
+	at org.sonatype.mavenbook.weather.YahooParserTest.testUnitsAttributesValue(YahooParserTest.java:168)
+
+testWeatherAttributes(org.sonatype.mavenbook.weather.YahooParserTest)  Time elapsed: 0.007 s  <<< ERROR!
+java.lang.NullPointerException
+	at org.sonatype.mavenbook.weather.YahooParserTest.testWeatherAttributes(YahooParserTest.java:42)
+
+testWeatherAttributesValue(org.sonatype.mavenbook.weather.YahooParserTest)  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.NullPointerException
+	at org.sonatype.mavenbook.weather.YahooParserTest.testWeatherAttributesValue(YahooParserTest.java:62)
+
+testWindAttributesValue(org.sonatype.mavenbook.weather.YahooParserTest)  Time elapsed: 0.006 s  <<< ERROR!
+java.lang.NullPointerException
+	at org.sonatype.mavenbook.weather.YahooParserTest.testWindAttributesValue(YahooParserTest.java:177)
+
+testAstronomyAttributes(org.sonatype.mavenbook.weather.YahooParserTest)  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.NullPointerException
+	at org.sonatype.mavenbook.weather.YahooParserTest.testAstronomyAttributes(YahooParserTest.java:73)
+
