@@ -1,4 +1,4 @@
-E:\Google Drive\ThumbThumbProjet\Maven\maven-guide-en-master\mvnbook-examples\ch-custom\simple-weather\src\test\java\org\sonatype\mavenbook\weather\WeatherFormatterTest.java
-E:\Google Drive\ThumbThumbProjet\Maven\maven-guide-en-master\mvnbook-examples\ch-custom\simple-weather\src\test\java\org\sonatype\mavenbook\weather\YahooRetrieverTest.java
-E:\Google Drive\ThumbThumbProjet\Maven\maven-guide-en-master\mvnbook-examples\ch-custom\simple-weather\src\test\java\org\sonatype\mavenbook\weather\YahooParserTest.java
-E:\Google Drive\ThumbThumbProjet\Maven\maven-guide-en-master\mvnbook-examples\ch-custom\simple-weather\src\test\java\org\sonatype\mavenbook\weather\utils\UtilsTest.java
+E:\dev_git\WeatherFromYQL\src\test\java\be\hypertux\mavenbook\WeatherFromYQL\service\WeatherFormatterTest.java
+E:\dev_git\WeatherFromYQL\src\test\java\be\hypertux\mavenbook\WeatherFromYQL\service\YahooRetrieverTest.java
+E:\dev_git\WeatherFromYQL\src\test\java\be\hypertux\mavenbook\WeatherFromYQL\service\YahooParserTest.java
+E:\dev_git\WeatherFromYQL\src\test\java\be\hypertux\mavenbook\WeatherFromYQL\utils\UtilsTest.java

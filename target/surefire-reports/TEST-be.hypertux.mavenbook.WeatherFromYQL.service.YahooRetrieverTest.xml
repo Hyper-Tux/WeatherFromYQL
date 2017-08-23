@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="be.hypertux.mavenbook.WeatherFromYQL.service.YahooRetrieverTest" time="0.287" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="be.hypertux.mavenbook.WeatherFromYQL.service.YahooRetrieverTest" time="0.289" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="idea.version" value="2017.2.2"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
     <property name="java.vm.version" value="25.144-b01"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="E:\Google Drive\ThumbThumbProjet\WeatherFromYQL"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\dev_git\WeatherFromYQL"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="Service Pack 1"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="E:\Google Drive\ThumbThumbProjet\WeatherFromYQL"/>
+    <property name="user.dir" value="E:\dev_git\WeatherFromYQL"/>
     <property name="java.runtime.version" value="1.8.0_144-b01"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed"/>
@@ -61,11 +61,13 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="retrieveTest" classname="be.hypertux.mavenbook.WeatherFromYQL.service.YahooRetrieverTest" time="0.276">
+  <testcase name="retrieveTest" classname="be.hypertux.mavenbook.WeatherFromYQL.service.YahooRetrieverTest" time="0.289">
     <failure message="The two InputStream aren&apos;t equal, URL = &quot;http://query.yahooapis.com/v1/public/yql?q=select+*+from+weather.forecast+where+woeid+%3D+615702&amp;format=xml&amp;env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys&quot;." type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: The two InputStream aren't equal, URL = "http://query.yahooapis.com/v1/public/yql?q=select+*+from+weather.forecast+where+woeid+%3D+615702&format=xml&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys".
-	at be.hypertux.mavenbook.WeatherFromYQL.service.YahooRetrieverTest.retrieveTest(YahooRetrieverTest.java:35)
+	at be.hypertux.mavenbook.WeatherFromYQL.service.YahooRetrieverTest.retrieveTest(YahooRetrieverTest.java:34)
 ]]></failure>
-    <system-out><![CDATA[0    INFO  YahooRetriever  - Retrieving Weather Data
+    <system-out><![CDATA[296  INFO  YahooRetriever  - Retrieving Weather Data
+297  INFO  YahooRetriever  - |||| - Encoding of the URL is ok.
+588  INFO  YahooRetriever  - |||| - Encoding of the URL is ok.
 ]]></system-out>
   </testcase>
 </testsuite>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest" time="0.341" tests="14" errors="14" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest" time="0.317" tests="14" errors="2" skipped="12" failures="0">
   <properties>
     <property name="idea.version" value="2017.2.2"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
     <property name="java.vm.version" value="25.144-b01"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="E:\Google Drive\ThumbThumbProjet\WeatherFromYQL"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\dev_git\WeatherFromYQL"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="Service Pack 1"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="E:\Google Drive\ThumbThumbProjet\WeatherFromYQL"/>
+    <property name="user.dir" value="E:\dev_git\WeatherFromYQL"/>
     <property name="java.runtime.version" value="1.8.0_144-b01"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed"/>
@@ -61,74 +61,60 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testLocationAttributesValue" classname="be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest" time="0.207">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest.testLocationAttributesValue(YahooParserTest.java:149)
-</error>
+  <testcase name="testLocationAttributesValue" classname="be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest" time="0">
+    <skipped/>
   </testcase>
-  <testcase name="testConditionAttributesValue" classname="be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest" time="0.009">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest.testConditionAttributesValue(YahooParserTest.java:100)
-</error>
+  <testcase name="testConditionAttributesValue" classname="be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest" time="0">
+    <skipped/>
   </testcase>
-  <testcase name="testLocationAttributes" classname="be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest" time="0.008">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest.testLocationAttributes(YahooParserTest.java:141)
-</error>
+  <testcase name="testLocationAttributes" classname="be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest" time="0">
+    <skipped/>
   </testcase>
-  <testcase name="testUnitsAttributes" classname="be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest" time="0.007">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest.testUnitsAttributes(YahooParserTest.java:157)
-</error>
+  <testcase name="testUnitsAttributes" classname="be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest" time="0">
+    <skipped/>
   </testcase>
-  <testcase name="testAtmosphereAttributesValues" classname="be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest" time="0.007">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest.testAtmosphereAttributesValues(YahooParserTest.java:84)
-</error>
+  <testcase name="testAtmosphereAttributesValues" classname="be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest" time="0">
+    <skipped/>
   </testcase>
-  <testcase name="testConditionAttributes" classname="be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest" time="0.009">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest.testConditionAttributes(YahooParserTest.java:93)
-</error>
+  <testcase name="testConditionAttributes" classname="be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest" time="0">
+    <skipped/>
   </testcase>
-  <testcase name="testForecastsAttributesValues" classname="be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest" time="0.003">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest.testForecastsAttributesValues(YahooParserTest.java:127)
-</error>
+  <testcase name="testForecastsAttributesValues" classname="be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest" time="0">
+    <skipped/>
   </testcase>
-  <testcase name="testAstronomyAttributesValue" classname="be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest" time="0.006">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest.testAstronomyAttributesValue(YahooParserTest.java:77)
-</error>
+  <testcase name="testAstronomyAttributesValue" classname="be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest" time="0">
+    <skipped/>
   </testcase>
-  <testcase name="testForecastsAttributes" classname="be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest" time="0.017">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest.testForecastsAttributes(YahooParserTest.java:110)
-</error>
+  <testcase name="testForecastsAttributes" classname="be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest" time="0">
+    <skipped/>
   </testcase>
   <testcase name="testUnitsAttributesValue" classname="be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest" time="0">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest.testUnitsAttributesValue(YahooParserTest.java:166)
-</error>
+    <skipped/>
   </testcase>
-  <testcase name="testWeatherAttributes" classname="be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest" time="0.008">
+  <testcase name="testWeatherAttributes" classname="be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest" time="0.28">
     <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest.testWeatherAttributes(YahooParserTest.java:40)
+	at be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest.before(YahooParserTest.java:34)
 </error>
+    <system-out><![CDATA[0    INFO  WeatherFormatter  - |||| Loading of the XML test file is ok.
+277  INFO  YahooParser  - |||| - Event during unmarshalisation : [severity=ERROR,message=élément inattendu (URI : "", local : "results"). Les éléments attendus sont <{}atmosphere>,<{}condition>,<{}listForecast>,<{}link>,<{}description>,<{}location>,<{}units>,<{}astronomy>,<{}wind>,locator=[node=null,object=null,url=null,line=2,col=11,offset=-1]]
+277  INFO  YahooParser  - ||| locator : [node=null,object=null,url=null,line=2,col=11,offset=-1]
+277  ERROR WeatherFormatter  - |||| Exception parsing the stream.java.lang.NullPointerException
+]]></system-out>
   </testcase>
-  <testcase name="testWeatherAttributesValue" classname="be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest" time="0.009">
+  <testcase name="testWeatherAttributesValue" classname="be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest" time="0.013">
     <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest.testWeatherAttributesValue(YahooParserTest.java:60)
+	at be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest.before(YahooParserTest.java:34)
 </error>
+    <system-out><![CDATA[282  INFO  WeatherFormatter  - |||| Loading of the XML test file is ok.
+294  INFO  YahooParser  - |||| - Event during unmarshalisation : [severity=ERROR,message=élément inattendu (URI : "", local : "results"). Les éléments attendus sont <{}atmosphere>,<{}condition>,<{}listForecast>,<{}link>,<{}description>,<{}location>,<{}units>,<{}astronomy>,<{}wind>,locator=[node=null,object=null,url=null,line=2,col=11,offset=-1]]
+294  INFO  YahooParser  - ||| locator : [node=null,object=null,url=null,line=2,col=11,offset=-1]
+294  ERROR WeatherFormatter  - |||| Exception parsing the stream.java.lang.NullPointerException
+]]></system-out>
   </testcase>
-  <testcase name="testWindAttributesValue" classname="be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest" time="0.017">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest.testWindAttributesValue(YahooParserTest.java:175)
-</error>
+  <testcase name="testWindAttributesValue" classname="be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest" time="0">
+    <skipped/>
   </testcase>
   <testcase name="testAstronomyAttributes" classname="be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest" time="0">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at be.hypertux.mavenbook.WeatherFromYQL.service.YahooParserTest.testAstronomyAttributes(YahooParserTest.java:71)
-</error>
+    <skipped/>
   </testcase>
 </testsuite>

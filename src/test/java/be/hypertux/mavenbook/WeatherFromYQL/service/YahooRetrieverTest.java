@@ -32,5 +32,7 @@ public class YahooRetrieverTest
             Assert.fail("xmlYahooStream is null.");
 
         Assert.assertTrue("The two InputStream aren't equal, URL = \"" + YahooRetriever.getFullUrlStr(WOEID) + "\".", UtilsTest.isEqual2(xmlLocalStream, xmlYahooStream));
+
+        log.info("|||| retrieveTest is OK.");
     }
 }
